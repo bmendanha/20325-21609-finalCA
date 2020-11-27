@@ -13,7 +13,7 @@
             android:layout_marginLeft="10dp"
             android:gravity="center_vertical"
             android:text="Product name"
-            android:textColor="#000"
+            android:textColor="@color/red"
             android:textSize="19sp"
             android:textStyle="bold"
             app:layout_constraintBottom_toTopOf="@+id/imageViewProductImage"

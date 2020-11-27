@@ -18,7 +18,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"
-                android:text="TEA WORLD"
+                android:textColor="@color/red"
+                android:text="M Fusion Sandyford"
                 android:textSize="16sp" />
 
         <RelativeLayout

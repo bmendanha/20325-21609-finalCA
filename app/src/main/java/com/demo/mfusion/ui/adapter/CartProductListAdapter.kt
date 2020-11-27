@@ -65,7 +65,7 @@ class CartProductListAdapter() :
             Glide.with(itemView)
                 .load(item.productImage)
                 .into(imageViewProductImage)
-            textViewPrice.text = "Rs. ${item.price.toString()}"
+            textViewPrice.text = "€:  ${item.price.toString()}"
             textViewQuantity.text = "Quantity: ${item.quantity.toString()}"
         }
     }

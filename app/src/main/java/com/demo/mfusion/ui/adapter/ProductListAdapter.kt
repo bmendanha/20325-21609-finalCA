@@ -69,7 +69,7 @@ class ProductListAdapter(private val interaction: Interaction? = null) :
             Glide.with(itemView)
                 .load(item.productImage)
                 .into(imageViewProductImage)
-            textViewPrice.text = "Rs. ${item.price.toString()}"
+            textViewPrice.text = "€:  ${item.price.toString()}"
         }
     }
 
