@@ -15,7 +15,7 @@ class SharedPreferenceUtil {
             val gson = Gson()
             val json = gson.toJson(list)
             editor.putString(KEY, json)
-            editor.apply()     // This line is IMPORTANT !!!
+            editor.apply()
         }
 
         fun getArrayList(context: Context): ArrayList<Product> {

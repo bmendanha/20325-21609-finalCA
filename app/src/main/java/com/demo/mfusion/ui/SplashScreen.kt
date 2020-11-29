@@ -19,7 +19,7 @@ class SplashScreen : AppCompatActivity() {
             startActivity(intent)
             finish()
 
-        }, 3000) // delaying 3 seconds before start main Activity
+        }, 4000) // delaying 3 seconds before start main Activity
 
     }
 }
