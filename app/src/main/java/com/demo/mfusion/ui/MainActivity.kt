@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import android.widget.Toast
 import com.bumptech.glide.request.RequestOptions
 import com.demo.mfusion.R
 import com.demo.mfusion.data.source.ProductDataSource
@@ -19,6 +20,7 @@ class MainActivity : AppCompatActivity(), UICommunicationListener {
     private lateinit var requestOptions: RequestOptions
     private lateinit var productDataSource: ProductDataSource
     override fun onCreate(savedInstanceState: Bundle?) {
+        Toast.makeText(this,"Welcome to MFusion Order Now",Toast.LENGTH_LONG).show()
         initDependencies()
         supportFragmentManager.fragmentFactory = ProductFragmentFactory(
             requestOptions,
