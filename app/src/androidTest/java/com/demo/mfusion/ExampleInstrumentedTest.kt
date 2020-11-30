@@ -1,4 +1,4 @@
-package com.demo.mfusion
+/** package com.demo.mfusion
 
 import androidx.test.InstrumentationRegistry
 import androidx.test.runner.AndroidJUnit4
@@ -22,3 +22,4 @@ class ExampleInstrumentedTest {
         assertEquals("com.demo.mfusion", appContext.packageName)
     }
 }
+*/
